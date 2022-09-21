@@ -3,3 +3,9 @@ AWS/Azure/GCP --> DevOps --> Kubernetes --> Python
 
 2. Basiscs needed for AWS
 Linux or Windows Basics
+
+3. AWS Account creation
+https://aws.amazon.com/resources/create-account/
+
+4. Mutlipla account with different emails
+https://aws.amazon.com/resources/create-account/
