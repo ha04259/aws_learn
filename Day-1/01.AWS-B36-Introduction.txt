@@ -1,2 +1,5 @@
 1. Why AWS, Career Roadmap and Job Market?
 AWS/Azure/GCP --> DevOps --> Kubernetes --> Python
+
+2. Basiscs needed for AWS
+Linux or Windows Basics
