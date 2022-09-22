@@ -1,0 +1,2 @@
+06.AWS-B36-VPC-Peering-Overview
+07.AWS-B36-VPC-Peering-Practical
