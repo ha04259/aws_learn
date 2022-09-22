@@ -1,0 +1,41 @@
+Day-1 AWS-B36-Introduction
+
+1. Why AWS, Career Roadmap and Job Market?
+AWS/Azure/GCP --> DevOps --> Kubernetes --> Python
+
+2. Basiscs needed for AWS
+Linux or Windows Basics
+
+3. AWS Account creation
+https://aws.amazon.com/resources/create-account/
+
+4. Mutlipla account with different emails
+https://aws.amazon.com/resources/create-account/
+
+5. Cloud Service Models
+Infrastructure as a Service (IaaS) --> example: EC2
+ Responsible for 
+ - Compute
+ - Network
+ - NW Security
+ - Storage
+ 
+Platform as a Service (PaaS) --> example: RDS
+ Responsible for 
+ - Compute
+ - Network
+ - NW Security
+ - Storage
+ - Runtime
+ 
+Software as a Service (SaaS) --> example: Dropbox, G-Drive, MSAAS(IKS)
+ Responsible for 
+ - Compute
+ - Network
+ - NW Security
+ - Storage
+ - Runtime
+ 
+ Cloud Service models reference: 
+https://digitalskynet.com/blog/cloud-service-models-saas-paas-iaas-which-is-better-for-your-business
+https://dachou.github.io/2018/09/28/cloud-service-models.html
