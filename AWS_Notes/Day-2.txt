@@ -1,0 +1,46 @@
+Day-2 AWS-B36-Regions-AZ-DatacenterArch-IPAddressing:
+
+AWS Regions and AZ's Reference:https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=1
+
+1. AWS Regions: Geographical location
+examples: us-west-2(Oregon), us-east-2(ohia)
+
+2. AWS Availability Zones:
+us-west-2 -- is a region
+region can have multiple AZ's
+us-west-2a, us-west-2b, us-west-2c
+Why AZ's: Distribute workloads across different AZ's (Instead of keeping all servers in one AZ spread across different AZ's. this will help no down time)
+How to choose region: https://cloudping.info/
+
+Disaster Recovery: If us-west-2 down (then we need to choose Disaster recovery and choose another region us-east-2)
+
+
+3. Datacenter Architecture:
+AWS Datacenter: RACK-1 RACK-2 RACK-3 RACK-4
+RACKS have Physical server
+Physical server have multiple virtual machines
+
+4. Basic Networking
+- IP Addressing (two types IPV4 and IPV6)
+4.1) IPV4 --> 32-bit example: 10.1.1.100
+0.0.0.0 to 255.255.255.255
+
+IPV4 are divided into 5 classes : https://www.techtarget.com/whatis/definition/IPv4-address-class
+Class A: 1.0.0.0 to 126.255.255.255
+Private Range for Class A: 10.0.0.0 to 10.255.255.255
+
+Class B: 128.0.0.0 to 191.255.255.255
+Private Range for Class A: 172.16.0.0 to 172.31.255.255
+
+Class C: 192 to 223.255.255.255
+Private Range for Class A: 192.168.0.0 to 192.168.255.255
+References: (watch some CCNA and CCNP training videos )
+https://medium.com/@sadatnazrul/basics-of-ip-addresses-in-computer-networking-f1a4661ea85c
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting
+
+
+4.2) IPV6 --> 
+- Subnetting
+Dividing address spaces into subnets
+
+Subnet calculator : https://mxtoolbox.com/subnetcalculator.aspx
