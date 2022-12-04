@@ -1,7 +1,7 @@
 05.AWS-B36-NAT-Gateway
 5. Public and Private Subnets, When to use it
 Public Subnet:A subnet whcih is exposed/connected  to nternet directly is a Public Subnet
-Private Subnet:A subnet whcih is not exposed/connected  to internet directly is a Public Subnet
+Private Subnet:A subnet whcih is not exposed/connected  to internet directly is a Private Subnet
 
 lab: 
 1. Creaate 1 instance in Private Subnet and  try to connect instance using SSH
